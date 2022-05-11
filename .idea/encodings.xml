@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1254">
+    <file url="file://$PROJECT_DIR$/src/main/java/Game/Player.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Location/BattleLoc.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Location/SafeHouse.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Location/ToolStore.java" charset="windows-1254" />
+  </component>
+</project>
