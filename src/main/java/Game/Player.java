@@ -30,12 +30,16 @@ public class Player {
 			initPlayer("Samuray", 5, 21, 15);
 			break;
 		}
+		System.out.println();
+		System.out.println("************************************");
 		System.out.println("Karakter Oluþturuldu ! Adý=" + getcName() + " ,Hasar=" + getDamage() + " ,Saðlýk="
 				+ getHealthy() + " ,Para=" + getMoney());
+		System.out.println("************************************");
+		System.out.println();
 	}
 
 	public int chaMenu() {
-		System.out.println("Lütfen bir karakter seçiniz : ");
+		System.out.println("************ K A R A K T E R L E R ************");
 		System.out.println("1- Samuray \t Hasar : 5 \t Saðlýk :21 \t Para :15");
 		System.out.println("2- Okçu \t Hasar : 7 \t Saðlýk :18 \t Para :20");
 		System.out.println("3- Þovalye \t Hasar : 8 \t Saðlýk :24 \t Para :5");
@@ -46,7 +50,6 @@ public class Player {
 			System.out.print("Lütfen geçerli bir karakter seçiniz : ");
 			chaID = scan.nextInt();
 		}
-
 
 		return chaID;
 	}

@@ -20,4 +20,11 @@ public class Weapon extends Award{
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString(){
+        return this.getName() + " Hasar : " + this.getDamage() +" - Ücret : "+ this.getPrice();
+    }
+
+
 }

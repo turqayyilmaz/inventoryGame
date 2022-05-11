@@ -1,11 +1,14 @@
 package Obstacle;
 
 import java.util.Random;
+import Award.Award;
+
 public class Obstacle {
 	private String name;
-	private int damage, award, health, maxNumber;
+	private int damage,  health, maxNumber;
+	private Award award;
 
-	public Obstacle(String name, int damage, int health, int award, int maxNumber) {
+	public Obstacle(String name, int damage, int health, Award award, int maxNumber) {
 		this.name = name;
 		this.damage = damage;
 		this.award = award;
@@ -34,11 +37,11 @@ public class Obstacle {
 		this.damage = damage;
 	}
 
-	public int getAward() {
+	public Award getAward() {
 		return award;
 	}
 
-	public void setAward(int award) {
+	public void setAward(Award award) {
 		this.award = award;
 	}
 

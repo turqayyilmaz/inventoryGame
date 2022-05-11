@@ -44,4 +44,7 @@ public abstract class Award {
     public void setAvoid(int avoid) {
         this.avoid = avoid;
     }
+    public String toString(){
+        return this.getName();
+    };
 }

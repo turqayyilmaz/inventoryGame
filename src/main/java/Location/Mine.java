@@ -1,13 +1,16 @@
 package Location;
 
-import Award.Award;
+
 import Game.Player;
-import Obstacle.Obstacle;
+
+import Obstacle.Snake;
+import Award.Wam;
 
 public class Mine extends BattleLoc{
 
-    Mine(Player player, String name, Obstacle obstacle, Award award) {
+    public Mine(Player player) {
+        super(player, "Maden", new Snake(), new Wam());
 
-        super(player, name, obstacle, award);
+
     }
 }

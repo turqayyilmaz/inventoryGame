@@ -22,4 +22,11 @@ public class Armor extends Award {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+
+        return this.getName() + " - Hasar Koruma : " + this.getAvoid() + " - Ücret : "+ this.getPrice();
+
+    }
 }
